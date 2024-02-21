@@ -9,7 +9,7 @@ export default function Beranda() {
     return (
         <main className='lg:p-10 md:p-8 p-5 bg-[#171823] min-h-screen font-DM'>
             <div className='py-3'>
-                <h1 className='text-center text-white lg:text-[40px] md:text-[30px] text-[25px] font-bold lg:tracking-[10px] md:tracking-[8px] tracking-[8px]'>
+                <h1 className='text-center text-white lg:text-[40px] md:text-[30px] text-[20px] font-bold lg:tracking-[10px] md:tracking-[8px] tracking-[5px]'>
                     USER LIST
                 </h1>
                 <Search value={inputValue} setInputValue={setInputValue} />
