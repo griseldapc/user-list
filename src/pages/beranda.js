@@ -7,7 +7,7 @@ export default function Beranda() {
     const [inputValue, setInputValue] = React.useState("");
 
     return (
-        <main className='lg:p-10 md:p-8 p-5 bg-[#171823] min-h-screen font-DM'>
+        <main className='lg:p-8 md:p-8 p-5 bg-[#171823] min-h-screen font-DM'>
             <div className='py-3'>
                 <h1 className='text-center text-white lg:text-[40px] md:text-[30px] text-[20px] font-bold lg:tracking-[10px] md:tracking-[8px] tracking-[5px]'>
                     USER LIST
@@ -22,7 +22,7 @@ export default function Beranda() {
                                 return nameLower.includes(inputLower);
                             })
                             .map((item) => (
-                                <div key={item.id} className='bg-[#25273D] lg:h-[auto] md:h-[170px] h-[160px] lg:w-[370px] md:w-[330px] w-[300px] lg:p-[16px] md:p-[16px] p-[14px] rounded-[12px] flex flex-col justify-between transition-transform transform hover:scale-105'>
+                                <div key={item.id} className='bg-[#25273D] lg:h-[auto] md:h-[170px] h-[160px] lg:w-[375px] md:w-[330px] w-[300px] lg:p-[16px] md:p-[16px] p-[14px] rounded-[12px] flex flex-col justify-between transition-transform transform hover:scale-105'>
                                     <div className='flex lg:gap-5 md:gap-4 gap-3 items-start lg:h-[120px] md:h-[110px] h-[150px]'>
                                         <img src='../../assets/boy.svg' className=' lg:w-[64px] md:w-[60px] w-[55px]' alt="User Avatar" />
                                         <div className='flex flex-col justify-between lg:h-[auto] md:h-[95px] h-[85px]'>
