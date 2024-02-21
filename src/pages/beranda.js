@@ -13,7 +13,7 @@ export default function Beranda() {
                     USER LIST
                 </h1>
                 <Search value={inputValue} setInputValue={setInputValue} />
-                <div className='flex flex-wrap lg:justify-start md:justify-start justify-center lg:gap-9 md:gap-11 gap-6 lg:pt-6 md:pt-5 pt-6 item center'>
+                <div className='flex flex-wrap lg:justify-start md:justify-start justify-center lg:gap-9 md:gap-11 gap-6 lg:pt-12 md:pt-10 pt-8 item center'>
                     {data &&
                         data
                             .filter((item) => {
