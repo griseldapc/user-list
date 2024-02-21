@@ -24,7 +24,7 @@ export default function Beranda() {
                             .map((item) => (
                                 <div key={item.id} className='bg-[#25273D] lg:h-[auto] md:h-[170px] h-[160px] lg:w-[370px] md:w-[330px] w-[300px] lg:p-[16px] md:p-[16px] p-[14px] rounded-[12px] flex flex-col justify-between transition-transform transform hover:scale-105'>
                                     <div className='flex lg:gap-5 md:gap-4 gap-3 items-start lg:h-[120px] md:h-[110px] h-[150px]'>
-                                        <img src='../../assets/boy.svg' className='lg:w-[64px] md:w-[60px] w-[55px]' alt="User Avatar" />
+                                        <img src='../../assets/boy.svg' className=' lg:w-[64px] md:w-[60px] w-[55px]' alt="User Avatar" />
                                         <div className='flex flex-col justify-between lg:h-[auto] md:h-[95px] h-[85px]'>
                                             <ul className='lg:text-[18px] md:text-[17px] text-[16px] text-[#C8CBE7]'>
                                                 {item.name}
